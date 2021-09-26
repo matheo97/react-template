@@ -1,8 +1,10 @@
 import React from 'react';
 
 
-const TabsTemplate = () => (
-    <div></div>
+const TabsTemplate = (props: any) => (
+    <div>
+        {props.children}
+    </div>
 )
 
 export default TabsTemplate;

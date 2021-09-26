@@ -6,6 +6,7 @@ import { authActions } from '../../store/slices/auth'
 function useAppInit() {
   const [loading, setLoading] = useState<boolean>(true)
   const dispatch = useAppDispatch()
+  /*
   const { auth } = useAppState((state) => state.auth)
   useEffect(() => {
     if (auth && auth.access_token && auth.refresh_token) {
@@ -40,7 +41,7 @@ function useAppInit() {
       setLoading(false)
       dispatch({ type: 'LOG_OUT' })
     }
-  }, [])
+  }, []) */
 
   return { loading }
 }

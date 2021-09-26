@@ -1,0 +1,26 @@
+import { Palette } from "./types"
+
+export const palette: Palette = {
+  primary: '#014991',
+  secondary: '#3874C2',
+  tertiary: '#3874C2',
+  fontPrimary: '#444444',
+  fontSecondary: '#FFFFFF',
+  fontTertiary: '#8E8E93',
+  containerPrimary: '#FFFFFF',
+  containerSecondary: '#000026',
+  borderPrimary: '#d1d1d1',
+  borderSecondary: '#71A2F5',
+  tableRowPrimary: '#FFFFFF',
+  tableRowSecondary: '#71A2F58A',
+  tableRowHover: '#00000041',
+  buttonPrimary: '#4674BC',
+  buttonSecondary: '#FFFFFF',
+  buttonDisabled: '#4674BC80',
+  buttonHover: '#3E68A9',
+  buttonSuccess: '#4BA154',
+  alertSuccess: '#6FC882',
+  notificationPrimary: '#FB404B',
+  error: '#FB404B',
+  disabled: '#F6F6F7',
+}
